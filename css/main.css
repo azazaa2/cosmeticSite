@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/background_index.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.conteiner {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+}
+
+section {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0px auto;
+}
+
+.main {
+  width: 100%;
+  max-width: 1440px;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.main__pack-Your-Makeup-Bag {
+  padding: 0px 30px;
+  border: 2px solid black;
+}
+.main__pack-Your-Makeup-Bag_wrapperHeader {
+  width: 100%;
+  max-width: 768px;
+  margin: 0px auto 20px;
+}
+.main__pack-Your-Makeup-Bag_wrapperHeader-title {
+  font-size: 48px;
+  margin-bottom: 11px;
+  color: white;
+}
+.main__pack-Your-Makeup-Bag_wrapperHeader-text {
+  font-style: 24px;
+  margin-bottom: 40px;
+  color: white;
+}
+.main__pack-Your-Makeup-Bag_wrapperHeader-btn {
+  width: 180px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: darksalmon;
+  color: black;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.main__pack-Your-Makeup-Bag_wrapperFooter {
+  width: 100%;
+  max-width: 768px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.main__pack-Your-Makeup-Bag_wrapperFooter-item {
+  width: 100%;
+  padding-left: 70px;
+  position: relative;
+}
+.main__pack-Your-Makeup-Bag_wrapperFooter-item img {
+  position: absolute;
+  width: 65px;
+  top: 0;
+  left: 0;
+}
+.main__pack-Your-Makeup-Bag_wrapperFooter-item h3 {
+  font-size: 18px;
+  color: white;
+}
